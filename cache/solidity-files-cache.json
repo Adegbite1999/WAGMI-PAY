@@ -1,0 +1,309 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "out",
+    "sources": "src",
+    "tests": "test",
+    "libraries": [
+      "lib"
+    ]
+  },
+  "files": {
+    "/home/adegbite/Desktop/wagmi-pay/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1652280350479,
+      "contentHash": "962996f0e05d5218857a538a62d7c47e",
+      "sourceName": "lib/ds-test/src/test.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": ">=0.5.0",
+      "artifacts": {}
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1652353699710,
+      "contentHash": "2ed98edc0ace098ba6d7c42a965628fd",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.10+commit.fc410830.Linux.gcc": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1652353699710,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20": {
+          "0.8.10+commit.fc410830.Linux.gcc": "IERC20.sol/IERC20.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1652353699710,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "IERC20Metadata": {
+          "0.8.10+commit.fc410830.Linux.gcc": "IERC20Metadata.sol/IERC20Metadata.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1652353699714,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Context.sol/Context.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol": {
+      "lastModificationDate": 1652353699714,
+      "contentHash": "a284072a728d3845bcee644359651cfd",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "MerkleProof": {
+          "0.8.10+commit.fc410830.Linux.gcc": "MerkleProof.sol/MerkleProof.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/src/MerkleERC20Claim.sol": {
+      "lastModificationDate": 1652360893353,
+      "contentHash": "dd8b078e8f14283f9e3913970d4088e4",
+      "sourceName": "src/MerkleERC20Claim.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "MerkleERC20Claim": {
+          "0.8.10+commit.fc410830.Linux.gcc": "MerkleERC20Claim.sol/MerkleERC20Claim.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/src/test/Contract.t.sol": {
+      "lastModificationDate": 1652280347203,
+      "contentHash": "7016738fe305fd90c36ea69a5cb2a78c",
+      "sourceName": "src/test/Contract.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "=0.8.10",
+      "artifacts": {}
+    }
+  }
+}
