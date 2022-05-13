@@ -2,6 +2,7 @@
 pragma solidity ^0.8.4;
 import "openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol";
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
+import "./Iwagmi.sol"
 
 contract MerkleERC20Claim {
     //@notice ERC20-claimee inclusion root
@@ -19,15 +20,6 @@ contract MerkleERC20Claim {
             error AlreadyClaimed();
             error NotInMerkle();
 
-            constructor(
-                string memory _name,
-                string memory _symbol,
-                bytes32 _merkleRoot
-            ){
-            bizName = _name;
-            bizSymb = _symbol;
-            merkleRoot = _merkleRoot;
-            }
 
     /// ==================FUNCTIONS ===============
 
@@ -36,20 +28,31 @@ contract MerkleERC20Claim {
     //@param amount: amount of salary owed to claimee (employee)
     // @param proof merkle proof to prove address and amount are in merkle tree
 
+//@notice: update merkleRoot if a new employee is added or removed.
+    function updateMerkleRoot(bytes32 _merkleRoot) public() {
+        merkleRoot = _merkleRoot;
+    }
+
     function claim(uint256 amount, bytes32[] calldata proof) external {
         // Throw error if address has already claimed salary
         if(hasClaimedSalary[msg.sender]) revert AlreadyClaimed();
-            bytes32 leaf = keccak256(abi.encodePacked(msg.sender, amount));
+            bytes32 leaf = keccak256(abi.encodePacked(msg.sender, msg.value));
             bool isValidLeaf = MerkleProof.verify(proof, merkleRoot, leaf);
             if(!isValidLeaf) revert NotInMerkle();
             hasClaimedSalary[msg.sender] = true;
-
+            transfer(msg.sender, msg.value);
             // Emit claim event
-            emit Claim(msg.sender, amount);
+            emit Claim(msg.sender, msg.value);
     }
 
     // verify merkle proof, or revert if not in tree
 
+// transfer
+// add bonus
+    function bonus(address _recipient) public {
+        require(_recipient != address(0),"address cannot be address zero");
 
+    }
+// deduct/reduce funds
 
 }
