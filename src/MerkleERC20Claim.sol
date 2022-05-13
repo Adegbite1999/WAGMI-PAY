@@ -40,7 +40,7 @@ contract MerkleERC20Claim {
             bool isValidLeaf = MerkleProof.verify(proof, merkleRoot, leaf);
             if(!isValidLeaf) revert NotInMerkle();
             hasClaimedSalary[msg.sender] = true;
-            token.transfer(msg.sender, msg.value);
+            transfer(msg.sender, msg.value);
             // Emit claim event
             emit Claim(msg.sender, msg.value);
     }
@@ -49,6 +49,10 @@ contract MerkleERC20Claim {
 
 // transfer
 // add bonus
+    function bonus(address _recipient) public {
+        require(_recipient != address(0),"address cannot be address zero");
+
+    }
 // deduct/reduce funds
 
 }
