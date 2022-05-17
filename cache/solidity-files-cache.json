@@ -42,6 +42,74 @@
       "versionRequirement": ">=0.5.0",
       "artifacts": {}
     },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1652353699694,
+      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
+      "sourceName": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {}
+    },
+    "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/proxy/Clones.sol": {
+      "lastModificationDate": 1652353699706,
+      "contentHash": "fbd54d0ecbc75d25a2f268e36e9b6553",
+      "sourceName": "lib/openzeppelin-contracts/contracts/proxy/Clones.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {}
+    },
     "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
       "lastModificationDate": 1652353699710,
       "contentHash": "2ed98edc0ace098ba6d7c42a965628fd",
@@ -233,10 +301,10 @@
         }
       }
     },
-    "/home/adegbite/Desktop/wagmi-pay/src/MerkleERC20Claim.sol": {
-      "lastModificationDate": 1652360893353,
-      "contentHash": "dd8b078e8f14283f9e3913970d4088e4",
-      "sourceName": "src/MerkleERC20Claim.sol",
+    "/home/adegbite/Desktop/wagmi-pay/src/FactoryClone.sol": {
+      "lastModificationDate": 1652781265549,
+      "contentHash": "45ac67f33caf767a8f5398ee7f2aa2be",
+      "sourceName": "src/FactoryClone.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -262,11 +330,63 @@
           "evmVersion": "london"
         }
       },
-      "imports": [],
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
+        "src/MerkleSalaryClaim.sol"
+      ],
+      "versionRequirement": "^0.8.4",
+      "artifacts": {
+        "PayrollFactory": {
+          "0.8.10+commit.fc410830.Linux.gcc": "FactoryClone.sol/PayrollFactory.json"
+        }
+      }
+    },
+    "/home/adegbite/Desktop/wagmi-pay/src/MerkleSalaryClaim.sol": {
+      "lastModificationDate": 1652781265553,
+      "contentHash": "f45b21b5c46d889255656ac5b953c839",
+      "sourceName": "src/MerkleSalaryClaim.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol"
+      ],
       "versionRequirement": "^0.8.4",
       "artifacts": {
         "MerkleERC20Claim": {
-          "0.8.10+commit.fc410830.Linux.gcc": "MerkleERC20Claim.sol/MerkleERC20Claim.json"
+          "0.8.10+commit.fc410830.Linux.gcc": "MerkleSalaryClaim.sol/MerkleERC20Claim.json"
         }
       }
     },
