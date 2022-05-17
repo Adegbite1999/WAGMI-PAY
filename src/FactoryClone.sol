@@ -11,8 +11,8 @@ contract PayrollFactory is Ownable{
   event payrollCreated(address indexed newPayroll); 
   address[] payrollAddresses; 
 
-  constructor(address _payrollAdress){
-      payrollAddress = _payrollAdress;
+  constructor(){
+      payrollAddress = address (new MerkleSalaryClaim());
 
   }
 

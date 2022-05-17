@@ -4,13 +4,14 @@ import "openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol";
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
-contract MerkleERC20Claim is Ownable {
+contract MerkleSalaryClaim is Ownable {
     //@notice ERC20-claimee inclusion root
     bytes32 merkleRoot;
     bool activatePayment;
     uint startTime;
-    string public bizName;
-    string public bizSymb;
+    uint public TotalSalary;
+    // string public bizName;
+    // string public bizSymb;
 
     struct Staff{
         address employee;
@@ -58,7 +59,7 @@ contract MerkleERC20Claim is Ownable {
             emit Claim(msg.sender, amount);
     }
     function setPayement() external payable onlyOwner{
-        require(msg.value >= 1 ether, "not enough money to pay employees");
+        require(msg.value >= TotalSalary, "not enough money to pay employees");
         activatePayment = true;
          startTime = block.timestamp;
     }
@@ -66,7 +67,7 @@ contract MerkleERC20Claim is Ownable {
 // deduct/reduce funds
     function transferOut() public onlyOwner{
         require(block.timestamp - startTime >= 1209600, "salary payment ongoing");
-        payable(owner()).transfer(address(this).balance);
+        payable(msg.sender).transfer(address(this).balance);
         activatePayment = false;
 
     }
@@ -74,6 +75,7 @@ contract MerkleERC20Claim is Ownable {
         Staff memory staffsPayrolls = Staff(_employee, _salary);
         StaffsPayroll.push(staffsPayrolls);
         _staffsPayroll = seeEMployees();
+        TotalSalary = TotalSalary + _salary;
 
     }
     function seeEMployees() public view returns(Staff[] memory _staffsPayroll){
