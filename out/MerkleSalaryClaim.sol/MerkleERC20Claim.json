@@ -287,7 +287,7 @@
         873
       ],
       "MerkleERC20Claim": [
-        1290
+        1288
       ],
       "MerkleProof": [
         988
@@ -296,12 +296,12 @@
         104
       ]
     },
-    "id": 1291,
+    "id": 1289,
     "license": "UNLICENSED",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1053,
+        "id": 1051,
         "literals": [
           "solidity",
           "^",
@@ -314,10 +314,10 @@
       {
         "absolutePath": "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
         "file": "openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
-        "id": 1054,
+        "id": 1052,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1291,
+        "scope": 1289,
         "sourceUnit": 989,
         "src": "63:77:8",
         "symbolAliases": [],
@@ -326,10 +326,10 @@
       {
         "absolutePath": "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "file": "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
-        "id": 1055,
+        "id": 1053,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1291,
+        "scope": 1289,
         "sourceUnit": 771,
         "src": "141:64:8",
         "symbolAliases": [],
@@ -338,10 +338,10 @@
       {
         "absolutePath": "/home/adegbite/Desktop/wagmi-pay/lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "file": "openzeppelin-contracts/contracts/access/Ownable.sol",
-        "id": 1056,
+        "id": 1054,
         "nameLocation": "-1:-1:-1",
         "nodeType": "ImportDirective",
-        "scope": 1291,
+        "scope": 1289,
         "sourceUnit": 105,
         "src": "206:61:8",
         "symbolAliases": [],
@@ -352,13 +352,13 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 1057,
+              "id": 1055,
               "name": "Ownable",
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 104,
               "src": "298:7:8"
             },
-            "id": 1058,
+            "id": 1056,
             "nodeType": "InheritanceSpecifier",
             "src": "298:7:8"
           }
@@ -367,9 +367,9 @@
         "contractDependencies": [],
         "contractKind": "contract",
         "fullyImplemented": true,
-        "id": 1290,
+        "id": 1288,
         "linearizedBaseContracts": [
-          1290,
+          1288,
           104,
           895
         ],
@@ -379,12 +379,12 @@
         "nodes": [
           {
             "constant": false,
-            "id": 1060,
+            "id": 1058,
             "mutability": "mutable",
             "name": "merkleRoot",
             "nameLocation": "363:10:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "355:18:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -393,7 +393,7 @@
               "typeString": "bytes32"
             },
             "typeName": {
-              "id": 1059,
+              "id": 1057,
               "name": "bytes32",
               "nodeType": "ElementaryTypeName",
               "src": "355:7:8",
@@ -406,12 +406,12 @@
           },
           {
             "constant": false,
-            "id": 1062,
+            "id": 1060,
             "mutability": "mutable",
             "name": "activatePayment",
             "nameLocation": "384:15:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "379:20:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -420,7 +420,7 @@
               "typeString": "bool"
             },
             "typeName": {
-              "id": 1061,
+              "id": 1059,
               "name": "bool",
               "nodeType": "ElementaryTypeName",
               "src": "379:4:8",
@@ -433,12 +433,12 @@
           },
           {
             "constant": false,
-            "id": 1064,
+            "id": 1062,
             "mutability": "mutable",
             "name": "startTime",
             "nameLocation": "410:9:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "405:14:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -447,7 +447,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 1063,
+              "id": 1061,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "405:4:8",
@@ -461,12 +461,12 @@
           {
             "constant": false,
             "functionSelector": "5ab37a4c",
-            "id": 1066,
+            "id": 1064,
             "mutability": "mutable",
             "name": "bizName",
             "nameLocation": "439:7:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "425:21:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -475,7 +475,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 1065,
+              "id": 1063,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "425:6:8",
@@ -489,12 +489,12 @@
           {
             "constant": false,
             "functionSelector": "49ce5a0f",
-            "id": 1068,
+            "id": 1066,
             "mutability": "mutable",
             "name": "bizSymb",
             "nameLocation": "466:7:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "452:21:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -503,7 +503,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 1067,
+              "id": 1065,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "452:6:8",
@@ -516,16 +516,16 @@
           },
           {
             "canonicalName": "MerkleERC20Claim.Staff",
-            "id": 1073,
+            "id": 1071,
             "members": [
               {
                 "constant": false,
-                "id": 1070,
+                "id": 1068,
                 "mutability": "mutable",
                 "name": "employee",
                 "nameLocation": "510:8:8",
                 "nodeType": "VariableDeclaration",
-                "scope": 1073,
+                "scope": 1071,
                 "src": "502:16:8",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -534,7 +534,7 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 1069,
+                  "id": 1067,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
                   "src": "502:7:8",
@@ -548,12 +548,12 @@
               },
               {
                 "constant": false,
-                "id": 1072,
+                "id": 1070,
                 "mutability": "mutable",
                 "name": "salary",
                 "nameLocation": "533:6:8",
                 "nodeType": "VariableDeclaration",
-                "scope": 1073,
+                "scope": 1071,
                 "src": "528:11:8",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -562,7 +562,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 1071,
+                  "id": 1069,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
                   "src": "528:4:8",
@@ -577,49 +577,49 @@
             "name": "Staff",
             "nameLocation": "487:5:8",
             "nodeType": "StructDefinition",
-            "scope": 1290,
+            "scope": 1288,
             "src": "480:66:8",
             "visibility": "public"
           },
           {
             "constant": false,
             "functionSelector": "41f4921e",
-            "id": 1077,
+            "id": 1075,
             "mutability": "mutable",
             "name": "StaffsPayroll",
             "nameLocation": "567:13:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "552:28:8",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage",
               "typeString": "struct MerkleERC20Claim.Staff[]"
             },
             "typeName": {
               "baseType": {
-                "id": 1075,
+                "id": 1073,
                 "nodeType": "UserDefinedTypeName",
                 "pathNode": {
-                  "id": 1074,
+                  "id": 1072,
                   "name": "Staff",
                   "nodeType": "IdentifierPath",
-                  "referencedDeclaration": 1073,
+                  "referencedDeclaration": 1071,
                   "src": "552:5:8"
                 },
-                "referencedDeclaration": 1073,
+                "referencedDeclaration": 1071,
                 "src": "552:5:8",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Staff_$1073_storage_ptr",
+                  "typeIdentifier": "t_struct$_Staff_$1071_storage_ptr",
                   "typeString": "struct MerkleERC20Claim.Staff"
                 }
               },
-              "id": 1076,
+              "id": 1074,
               "nodeType": "ArrayTypeName",
               "src": "552:7:8",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage_ptr",
                 "typeString": "struct MerkleERC20Claim.Staff[]"
               }
             },
@@ -627,23 +627,23 @@
           },
           {
             "anonymous": false,
-            "id": 1083,
+            "id": 1081,
             "name": "Claim",
             "nameLocation": "607:5:8",
             "nodeType": "EventDefinition",
             "parameters": {
-              "id": 1082,
+              "id": 1080,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1079,
+                  "id": 1077,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1083,
+                  "scope": 1081,
                   "src": "613:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -652,7 +652,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1078,
+                    "id": 1076,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "613:7:8",
@@ -666,13 +666,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 1081,
+                  "id": 1079,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1083,
+                  "scope": 1081,
                   "src": "622:7:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -681,7 +681,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1080,
+                    "id": 1078,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "622:7:8",
@@ -700,12 +700,12 @@
           {
             "constant": false,
             "functionSelector": "798bdfd1",
-            "id": 1087,
+            "id": 1085,
             "mutability": "mutable",
             "name": "hasClaimedSalary",
             "nameLocation": "728:16:8",
             "nodeType": "VariableDeclaration",
-            "scope": 1290,
+            "scope": 1288,
             "src": "696:48:8",
             "stateVariable": true,
             "storageLocation": "default",
@@ -714,9 +714,9 @@
               "typeString": "mapping(address => bool)"
             },
             "typeName": {
-              "id": 1086,
+              "id": 1084,
               "keyType": {
-                "id": 1084,
+                "id": 1082,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
                 "src": "704:7:8",
@@ -732,7 +732,7 @@
                 "typeString": "mapping(address => bool)"
               },
               "valueType": {
-                "id": 1085,
+                "id": 1083,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
                 "src": "715:4:8",
@@ -745,12 +745,12 @@
             "visibility": "public"
           },
           {
-            "id": 1089,
+            "id": 1087,
             "name": "AlreadyClaimed",
             "nameLocation": "819:14:8",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 1088,
+              "id": 1086,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "833:2:8"
@@ -758,12 +758,12 @@
             "src": "813:23:8"
           },
           {
-            "id": 1091,
+            "id": 1089,
             "name": "NotInMerkle",
             "nameLocation": "855:11:8",
             "nodeType": "ErrorDefinition",
             "parameters": {
-              "id": 1090,
+              "id": 1088,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "866:2:8"
@@ -772,23 +772,23 @@
           },
           {
             "body": {
-              "id": 1103,
+              "id": 1101,
               "nodeType": "Block",
               "src": "1321:41:8",
               "statements": [
                 {
                   "expression": {
-                    "id": 1101,
+                    "id": 1099,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1099,
+                      "id": 1097,
                       "name": "merkleRoot",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1060,
+                      "referencedDeclaration": 1058,
                       "src": "1331:10:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -798,11 +798,11 @@
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1100,
+                      "id": 1098,
                       "name": "_merkleRoot",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1094,
+                      "referencedDeclaration": 1092,
                       "src": "1344:11:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -815,28 +815,28 @@
                       "typeString": "bytes32"
                     }
                   },
-                  "id": 1102,
+                  "id": 1100,
                   "nodeType": "ExpressionStatement",
                   "src": "1331:24:8"
                 }
               ]
             },
             "documentation": {
-              "id": 1092,
+              "id": 1090,
               "nodeType": "StructuredDocumentation",
               "src": "876:48:8",
               "text": "==================FUNCTIONS ==============="
             },
             "functionSelector": "4783f0ef",
-            "id": 1104,
+            "id": 1102,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 1097,
+                "id": 1095,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1096,
+                  "id": 1094,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 46,
@@ -850,17 +850,17 @@
             "nameLocation": "1267:16:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1095,
+              "id": 1093,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1094,
+                  "id": 1092,
                   "mutability": "mutable",
                   "name": "_merkleRoot",
                   "nameLocation": "1292:11:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1104,
+                  "scope": 1102,
                   "src": "1284:19:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -869,7 +869,7 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 1093,
+                    "id": 1091,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
                     "src": "1284:7:8",
@@ -884,12 +884,12 @@
               "src": "1283:21:8"
             },
             "returnParameters": {
-              "id": 1098,
+              "id": 1096,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1321:0:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "1258:104:8",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -897,7 +897,7 @@
           },
           {
             "body": {
-              "id": 1183,
+              "id": 1181,
               "nodeType": "Block",
               "src": "1442:763:8",
               "statements": [
@@ -905,11 +905,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1113,
+                        "id": 1111,
                         "name": "activatePayment",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1062,
+                        "referencedDeclaration": 1060,
                         "src": "1520:15:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -918,7 +918,7 @@
                       },
                       {
                         "hexValue": "6e6f742070616d656e7420706572696f64",
-                        "id": 1114,
+                        "id": 1112,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -944,7 +944,7 @@
                           "typeString": "literal_string \"not pament period\""
                         }
                       ],
-                      "id": 1112,
+                      "id": 1110,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -958,7 +958,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1115,
+                    "id": 1113,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -973,7 +973,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1116,
+                  "id": 1114,
                   "nodeType": "ExpressionStatement",
                   "src": "1512:45:8"
                 },
@@ -985,7 +985,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1123,
+                        "id": 1121,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -995,14 +995,14 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 1121,
+                          "id": 1119,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "expression": {
-                              "id": 1118,
+                              "id": 1116,
                               "name": "block",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -1013,7 +1013,7 @@
                                 "typeString": "block"
                               }
                             },
-                            "id": 1119,
+                            "id": 1117,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1029,11 +1029,11 @@
                           "nodeType": "BinaryOperation",
                           "operator": "-",
                           "rightExpression": {
-                            "id": 1120,
+                            "id": 1118,
                             "name": "startTime",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1064,
+                            "referencedDeclaration": 1062,
                             "src": "1640:9:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1050,7 +1050,7 @@
                         "operator": "<=",
                         "rightExpression": {
                           "hexValue": "31323039363030",
-                          "id": 1122,
+                          "id": 1120,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1072,7 +1072,7 @@
                       },
                       {
                         "hexValue": "74696d6520746f20636c61696d2073616c61727920656c6170736564",
-                        "id": 1124,
+                        "id": 1122,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1098,7 +1098,7 @@
                           "typeString": "literal_string \"time to claim salary elapsed\""
                         }
                       ],
-                      "id": 1117,
+                      "id": 1115,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -1112,7 +1112,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1125,
+                    "id": 1123,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1127,28 +1127,28 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1126,
+                  "id": 1124,
                   "nodeType": "ExpressionStatement",
                   "src": "1614:79:8"
                 },
                 {
                   "condition": {
                     "baseExpression": {
-                      "id": 1127,
+                      "id": 1125,
                       "name": "hasClaimedSalary",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1087,
+                      "referencedDeclaration": 1085,
                       "src": "1767:16:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                         "typeString": "mapping(address => bool)"
                       }
                     },
-                    "id": 1130,
+                    "id": 1128,
                     "indexExpression": {
                       "expression": {
-                        "id": 1128,
+                        "id": 1126,
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -1159,7 +1159,7 @@
                           "typeString": "msg"
                         }
                       },
-                      "id": 1129,
+                      "id": 1127,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1183,7 +1183,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 1134,
+                  "id": 1132,
                   "nodeType": "IfStatement",
                   "src": "1764:56:8",
                   "trueBody": {
@@ -1191,18 +1191,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 1131,
+                        "id": 1129,
                         "name": "AlreadyClaimed",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1089,
+                        "referencedDeclaration": 1087,
                         "src": "1804:14:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 1132,
+                      "id": 1130,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1217,24 +1217,24 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 1133,
+                    "id": 1131,
                     "nodeType": "RevertStatement",
                     "src": "1797:23:8"
                   }
                 },
                 {
                   "assignments": [
-                    1136
+                    1134
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 1136,
+                      "id": 1134,
                       "mutability": "mutable",
                       "name": "leaf",
                       "nameLocation": "1842:4:8",
                       "nodeType": "VariableDeclaration",
-                      "scope": 1183,
+                      "scope": 1181,
                       "src": "1834:12:8",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1243,7 +1243,7 @@
                         "typeString": "bytes32"
                       },
                       "typeName": {
-                        "id": 1135,
+                        "id": 1133,
                         "name": "bytes32",
                         "nodeType": "ElementaryTypeName",
                         "src": "1834:7:8",
@@ -1255,14 +1255,14 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 1145,
+                  "id": 1143,
                   "initialValue": {
                     "arguments": [
                       {
                         "arguments": [
                           {
                             "expression": {
-                              "id": 1140,
+                              "id": 1138,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -1273,7 +1273,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1141,
+                            "id": 1139,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1287,11 +1287,11 @@
                             }
                           },
                           {
-                            "id": 1142,
+                            "id": 1140,
                             "name": "amount",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1106,
+                            "referencedDeclaration": 1104,
                             "src": "1888:6:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1311,7 +1311,7 @@
                             }
                           ],
                           "expression": {
-                            "id": 1138,
+                            "id": 1136,
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -1322,7 +1322,7 @@
                               "typeString": "abi"
                             }
                           },
-                          "id": 1139,
+                          "id": 1137,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1335,7 +1335,7 @@
                             "typeString": "function () pure returns (bytes memory)"
                           }
                         },
-                        "id": 1143,
+                        "id": 1141,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1358,7 +1358,7 @@
                           "typeString": "bytes memory"
                         }
                       ],
-                      "id": 1137,
+                      "id": 1135,
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
@@ -1369,7 +1369,7 @@
                         "typeString": "function (bytes memory) pure returns (bytes32)"
                       }
                     },
-                    "id": 1144,
+                    "id": 1142,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1389,17 +1389,17 @@
                 },
                 {
                   "assignments": [
-                    1147
+                    1145
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 1147,
+                      "id": 1145,
                       "mutability": "mutable",
                       "name": "isValidLeaf",
                       "nameLocation": "1915:11:8",
                       "nodeType": "VariableDeclaration",
-                      "scope": 1183,
+                      "scope": 1181,
                       "src": "1910:16:8",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1408,7 +1408,7 @@
                         "typeString": "bool"
                       },
                       "typeName": {
-                        "id": 1146,
+                        "id": 1144,
                         "name": "bool",
                         "nodeType": "ElementaryTypeName",
                         "src": "1910:4:8",
@@ -1420,15 +1420,15 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 1154,
+                  "id": 1152,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 1150,
+                        "id": 1148,
                         "name": "proof",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1109,
+                        "referencedDeclaration": 1107,
                         "src": "1948:5:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_bytes32_$dyn_calldata_ptr",
@@ -1436,11 +1436,11 @@
                         }
                       },
                       {
-                        "id": 1151,
+                        "id": 1149,
                         "name": "merkleRoot",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1060,
+                        "referencedDeclaration": 1058,
                         "src": "1955:10:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -1448,11 +1448,11 @@
                         }
                       },
                       {
-                        "id": 1152,
+                        "id": 1150,
                         "name": "leaf",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1136,
+                        "referencedDeclaration": 1134,
                         "src": "1967:4:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -1476,7 +1476,7 @@
                         }
                       ],
                       "expression": {
-                        "id": 1148,
+                        "id": 1146,
                         "name": "MerkleProof",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -1487,7 +1487,7 @@
                           "typeString": "type(library MerkleProof)"
                         }
                       },
-                      "id": 1149,
+                      "id": 1147,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1501,7 +1501,7 @@
                         "typeString": "function (bytes32[] memory,bytes32,bytes32) pure returns (bool)"
                       }
                     },
-                    "id": 1153,
+                    "id": 1151,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1521,7 +1521,7 @@
                 },
                 {
                   "condition": {
-                    "id": 1156,
+                    "id": 1154,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1531,11 +1531,11 @@
                     "prefix": true,
                     "src": "1989:12:8",
                     "subExpression": {
-                      "id": 1155,
+                      "id": 1153,
                       "name": "isValidLeaf",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1147,
+                      "referencedDeclaration": 1145,
                       "src": "1990:11:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -1547,7 +1547,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 1160,
+                  "id": 1158,
                   "nodeType": "IfStatement",
                   "src": "1986:37:8",
                   "trueBody": {
@@ -1555,18 +1555,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 1157,
+                        "id": 1155,
                         "name": "NotInMerkle",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1091,
+                        "referencedDeclaration": 1089,
                         "src": "2010:11:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_error_pure$__$returns$__$",
                           "typeString": "function () pure"
                         }
                       },
-                      "id": 1158,
+                      "id": 1156,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1581,35 +1581,35 @@
                         "typeString": "tuple()"
                       }
                     },
-                    "id": 1159,
+                    "id": 1157,
                     "nodeType": "RevertStatement",
                     "src": "2003:20:8"
                   }
                 },
                 {
                   "expression": {
-                    "id": 1166,
+                    "id": 1164,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "baseExpression": {
-                        "id": 1161,
+                        "id": 1159,
                         "name": "hasClaimedSalary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1087,
+                        "referencedDeclaration": 1085,
                         "src": "2037:16:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bool_$",
                           "typeString": "mapping(address => bool)"
                         }
                       },
-                      "id": 1164,
+                      "id": 1162,
                       "indexExpression": {
                         "expression": {
-                          "id": 1162,
+                          "id": 1160,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -1620,7 +1620,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 1163,
+                        "id": 1161,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1648,7 +1648,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-                      "id": 1165,
+                      "id": 1163,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1668,7 +1668,7 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 1167,
+                  "id": 1165,
                   "nodeType": "ExpressionStatement",
                   "src": "2037:35:8"
                 },
@@ -1676,11 +1676,11 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1174,
+                        "id": 1172,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1106,
+                        "referencedDeclaration": 1104,
                         "src": "2115:6:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1699,7 +1699,7 @@
                         "arguments": [
                           {
                             "expression": {
-                              "id": 1170,
+                              "id": 1168,
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -1710,7 +1710,7 @@
                                 "typeString": "msg"
                               }
                             },
-                            "id": 1171,
+                            "id": 1169,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1731,7 +1731,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 1169,
+                          "id": 1167,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1743,7 +1743,7 @@
                             "typeString": "type(address payable)"
                           },
                           "typeName": {
-                            "id": 1168,
+                            "id": 1166,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "2086:8:8",
@@ -1751,7 +1751,7 @@
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 1172,
+                        "id": 1170,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1766,7 +1766,7 @@
                           "typeString": "address payable"
                         }
                       },
-                      "id": 1173,
+                      "id": 1171,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1779,7 +1779,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 1175,
+                    "id": 1173,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1794,7 +1794,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1176,
+                  "id": 1174,
                   "nodeType": "ExpressionStatement",
                   "src": "2086:36:8"
                 },
@@ -1803,7 +1803,7 @@
                     "arguments": [
                       {
                         "expression": {
-                          "id": 1178,
+                          "id": 1176,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
@@ -1814,7 +1814,7 @@
                             "typeString": "msg"
                           }
                         },
-                        "id": 1179,
+                        "id": 1177,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1828,11 +1828,11 @@
                         }
                       },
                       {
-                        "id": 1180,
+                        "id": 1178,
                         "name": "amount",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1106,
+                        "referencedDeclaration": 1104,
                         "src": "2191:6:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1851,18 +1851,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 1177,
+                      "id": 1175,
                       "name": "Claim",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1083,
+                      "referencedDeclaration": 1081,
                       "src": "2173:5:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_event_nonpayable$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,uint256)"
                       }
                     },
-                    "id": 1181,
+                    "id": 1179,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1877,14 +1877,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1182,
+                  "id": 1180,
                   "nodeType": "EmitStatement",
                   "src": "2168:30:8"
                 }
               ]
             },
             "functionSelector": "2f52ebb7",
-            "id": 1184,
+            "id": 1182,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1892,17 +1892,17 @@
             "nameLocation": "1377:5:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1110,
+              "id": 1108,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1106,
+                  "id": 1104,
                   "mutability": "mutable",
                   "name": "amount",
                   "nameLocation": "1391:6:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1184,
+                  "scope": 1182,
                   "src": "1383:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1911,7 +1911,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1105,
+                    "id": 1103,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1383:7:8",
@@ -1924,12 +1924,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1109,
+                  "id": 1107,
                   "mutability": "mutable",
                   "name": "proof",
                   "nameLocation": "1418:5:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1184,
+                  "scope": 1182,
                   "src": "1399:24:8",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -1939,7 +1939,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1107,
+                      "id": 1105,
                       "name": "bytes32",
                       "nodeType": "ElementaryTypeName",
                       "src": "1399:7:8",
@@ -1948,7 +1948,7 @@
                         "typeString": "bytes32"
                       }
                     },
-                    "id": 1108,
+                    "id": 1106,
                     "nodeType": "ArrayTypeName",
                     "src": "1399:9:8",
                     "typeDescriptions": {
@@ -1962,12 +1962,12 @@
               "src": "1382:42:8"
             },
             "returnParameters": {
-              "id": 1111,
+              "id": 1109,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1442:0:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "1368:837:8",
             "stateMutability": "payable",
             "virtual": false,
@@ -1975,7 +1975,7 @@
           },
           {
             "body": {
-              "id": 1206,
+              "id": 1204,
               "nodeType": "Block",
               "src": "2259:153:8",
               "statements": [
@@ -1987,14 +1987,14 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1193,
+                        "id": 1191,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "leftExpression": {
                           "expression": {
-                            "id": 1190,
+                            "id": 1188,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
@@ -2005,7 +2005,7 @@
                               "typeString": "msg"
                             }
                           },
-                          "id": 1191,
+                          "id": 1189,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2022,7 +2022,7 @@
                         "operator": ">=",
                         "rightExpression": {
                           "hexValue": "31",
-                          "id": 1192,
+                          "id": 1190,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2045,7 +2045,7 @@
                       },
                       {
                         "hexValue": "6e6f7420656e6f756768206d6f6e657920746f2070617920656d706c6f79656573",
-                        "id": 1194,
+                        "id": 1192,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2071,7 +2071,7 @@
                           "typeString": "literal_string \"not enough money to pay employees\""
                         }
                       ],
-                      "id": 1189,
+                      "id": 1187,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2085,7 +2085,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1195,
+                    "id": 1193,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2100,23 +2100,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1196,
+                  "id": 1194,
                   "nodeType": "ExpressionStatement",
                   "src": "2269:66:8"
                 },
                 {
                   "expression": {
-                    "id": 1199,
+                    "id": 1197,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1197,
+                      "id": 1195,
                       "name": "activatePayment",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1062,
+                      "referencedDeclaration": 1060,
                       "src": "2345:15:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2127,7 +2127,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "74727565",
-                      "id": 1198,
+                      "id": 1196,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2147,23 +2147,23 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 1200,
+                  "id": 1198,
                   "nodeType": "ExpressionStatement",
                   "src": "2345:22:8"
                 },
                 {
                   "expression": {
-                    "id": 1204,
+                    "id": 1202,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1201,
+                      "id": 1199,
                       "name": "startTime",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1064,
+                      "referencedDeclaration": 1062,
                       "src": "2378:9:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2174,7 +2174,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "expression": {
-                        "id": 1202,
+                        "id": 1200,
                         "name": "block",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
@@ -2185,7 +2185,7 @@
                           "typeString": "block"
                         }
                       },
-                      "id": 1203,
+                      "id": 1201,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2204,22 +2204,22 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 1205,
+                  "id": 1203,
                   "nodeType": "ExpressionStatement",
                   "src": "2378:27:8"
                 }
               ]
             },
             "functionSelector": "a74da609",
-            "id": 1207,
+            "id": 1205,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 1187,
+                "id": 1185,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1186,
+                  "id": 1184,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 46,
@@ -2233,18 +2233,18 @@
             "nameLocation": "2219:11:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1185,
+              "id": 1183,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2230:2:8"
             },
             "returnParameters": {
-              "id": 1188,
+              "id": 1186,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2259:0:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "2210:202:8",
             "stateMutability": "payable",
             "virtual": false,
@@ -2252,7 +2252,7 @@
           },
           {
             "body": {
-              "id": 1239,
+              "id": 1237,
               "nodeType": "Block",
               "src": "2482:182:8",
               "statements": [
@@ -2264,7 +2264,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 1218,
+                        "id": 1216,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2274,14 +2274,14 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 1216,
+                          "id": 1214,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "expression": {
-                              "id": 1213,
+                              "id": 1211,
                               "name": "block",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -2292,7 +2292,7 @@
                                 "typeString": "block"
                               }
                             },
-                            "id": 1214,
+                            "id": 1212,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2308,11 +2308,11 @@
                           "nodeType": "BinaryOperation",
                           "operator": "-",
                           "rightExpression": {
-                            "id": 1215,
+                            "id": 1213,
                             "name": "startTime",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1064,
+                            "referencedDeclaration": 1062,
                             "src": "2518:9:8",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -2329,7 +2329,7 @@
                         "operator": ">=",
                         "rightExpression": {
                           "hexValue": "31323039363030",
-                          "id": 1217,
+                          "id": 1215,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2351,7 +2351,7 @@
                       },
                       {
                         "hexValue": "73616c617279207061796d656e74206f6e676f696e67",
-                        "id": 1219,
+                        "id": 1217,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2377,7 +2377,7 @@
                           "typeString": "literal_string \"salary payment ongoing\""
                         }
                       ],
-                      "id": 1212,
+                      "id": 1210,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
@@ -2391,7 +2391,7 @@
                         "typeString": "function (bool,string memory) pure"
                       }
                     },
-                    "id": 1220,
+                    "id": 1218,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2406,7 +2406,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1221,
+                  "id": 1219,
                   "nodeType": "ExpressionStatement",
                   "src": "2492:73:8"
                 },
@@ -2417,14 +2417,14 @@
                         "expression": {
                           "arguments": [
                             {
-                              "id": 1230,
+                              "id": 1228,
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": -28,
                               "src": "2609:4:8",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_MerkleERC20Claim_$1290",
+                                "typeIdentifier": "t_contract$_MerkleERC20Claim_$1288",
                                 "typeString": "contract MerkleERC20Claim"
                               }
                             }
@@ -2432,11 +2432,11 @@
                           "expression": {
                             "argumentTypes": [
                               {
-                                "typeIdentifier": "t_contract$_MerkleERC20Claim_$1290",
+                                "typeIdentifier": "t_contract$_MerkleERC20Claim_$1288",
                                 "typeString": "contract MerkleERC20Claim"
                               }
                             ],
-                            "id": 1229,
+                            "id": 1227,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
@@ -2448,14 +2448,14 @@
                               "typeString": "type(address)"
                             },
                             "typeName": {
-                              "id": 1228,
+                              "id": 1226,
                               "name": "address",
                               "nodeType": "ElementaryTypeName",
                               "src": "2601:7:8",
                               "typeDescriptions": {}
                             }
                           },
-                          "id": 1231,
+                          "id": 1229,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2470,7 +2470,7 @@
                             "typeString": "address"
                           }
                         },
-                        "id": 1232,
+                        "id": 1230,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2497,7 +2497,7 @@
                             "arguments": [],
                             "expression": {
                               "argumentTypes": [],
-                              "id": 1224,
+                              "id": 1222,
                               "name": "owner",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
@@ -2508,7 +2508,7 @@
                                 "typeString": "function () view returns (address)"
                               }
                             },
-                            "id": 1225,
+                            "id": 1223,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2531,7 +2531,7 @@
                               "typeString": "address"
                             }
                           ],
-                          "id": 1223,
+                          "id": 1221,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -2543,7 +2543,7 @@
                             "typeString": "type(address payable)"
                           },
                           "typeName": {
-                            "id": 1222,
+                            "id": 1220,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
                             "src": "2575:8:8",
@@ -2551,7 +2551,7 @@
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 1226,
+                        "id": 1224,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -2566,7 +2566,7 @@
                           "typeString": "address payable"
                         }
                       },
-                      "id": 1227,
+                      "id": 1225,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2579,7 +2579,7 @@
                         "typeString": "function (uint256)"
                       }
                     },
-                    "id": 1233,
+                    "id": 1231,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2594,23 +2594,23 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1234,
+                  "id": 1232,
                   "nodeType": "ExpressionStatement",
                   "src": "2575:48:8"
                 },
                 {
                   "expression": {
-                    "id": 1237,
+                    "id": 1235,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1235,
+                      "id": 1233,
                       "name": "activatePayment",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1062,
+                      "referencedDeclaration": 1060,
                       "src": "2633:15:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
@@ -2621,7 +2621,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "66616c7365",
-                      "id": 1236,
+                      "id": 1234,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -2641,22 +2641,22 @@
                       "typeString": "bool"
                     }
                   },
-                  "id": 1238,
+                  "id": 1236,
                   "nodeType": "ExpressionStatement",
                   "src": "2633:23:8"
                 }
               ]
             },
             "functionSelector": "c10f410b",
-            "id": 1240,
+            "id": 1238,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 1210,
+                "id": 1208,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1209,
+                  "id": 1207,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 46,
@@ -2670,18 +2670,18 @@
             "nameLocation": "2452:11:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1208,
+              "id": 1206,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2463:2:8"
             },
             "returnParameters": {
-              "id": 1211,
+              "id": 1209,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2482:0:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "2443:221:8",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -2689,59 +2689,59 @@
           },
           {
             "body": {
-              "id": 1272,
+              "id": 1270,
               "nodeType": "Block",
               "src": "2780:158:8",
               "statements": [
                 {
                   "assignments": [
-                    1255
+                    1253
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 1255,
+                      "id": 1253,
                       "mutability": "mutable",
                       "name": "staffsPayrolls",
                       "nameLocation": "2803:14:8",
                       "nodeType": "VariableDeclaration",
-                      "scope": 1272,
+                      "scope": 1270,
                       "src": "2790:27:8",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Staff_$1073_memory_ptr",
+                        "typeIdentifier": "t_struct$_Staff_$1071_memory_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff"
                       },
                       "typeName": {
-                        "id": 1254,
+                        "id": 1252,
                         "nodeType": "UserDefinedTypeName",
                         "pathNode": {
-                          "id": 1253,
+                          "id": 1251,
                           "name": "Staff",
                           "nodeType": "IdentifierPath",
-                          "referencedDeclaration": 1073,
+                          "referencedDeclaration": 1071,
                           "src": "2790:5:8"
                         },
-                        "referencedDeclaration": 1073,
+                        "referencedDeclaration": 1071,
                         "src": "2790:5:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Staff_$1073_storage_ptr",
+                          "typeIdentifier": "t_struct$_Staff_$1071_storage_ptr",
                           "typeString": "struct MerkleERC20Claim.Staff"
                         }
                       },
                       "visibility": "internal"
                     }
                   ],
-                  "id": 1260,
+                  "id": 1258,
                   "initialValue": {
                     "arguments": [
                       {
-                        "id": 1257,
+                        "id": 1255,
                         "name": "_employee",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1242,
+                        "referencedDeclaration": 1240,
                         "src": "2826:9:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -2749,11 +2749,11 @@
                         }
                       },
                       {
-                        "id": 1258,
+                        "id": 1256,
                         "name": "_salary",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1244,
+                        "referencedDeclaration": 1242,
                         "src": "2837:7:8",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2772,18 +2772,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 1256,
+                      "id": 1254,
                       "name": "Staff",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1073,
+                      "referencedDeclaration": 1071,
                       "src": "2820:5:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_Staff_$1073_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_Staff_$1071_storage_ptr_$",
                         "typeString": "type(struct MerkleERC20Claim.Staff storage pointer)"
                       }
                     },
-                    "id": 1259,
+                    "id": 1257,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2794,7 +2794,7 @@
                     "src": "2820:25:8",
                     "tryCall": false,
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Staff_$1073_memory_ptr",
+                      "typeIdentifier": "t_struct$_Staff_$1071_memory_ptr",
                       "typeString": "struct MerkleERC20Claim.Staff memory"
                     }
                   },
@@ -2805,14 +2805,14 @@
                   "expression": {
                     "arguments": [
                       {
-                        "id": 1264,
+                        "id": 1262,
                         "name": "staffsPayrolls",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1255,
+                        "referencedDeclaration": 1253,
                         "src": "2874:14:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Staff_$1073_memory_ptr",
+                          "typeIdentifier": "t_struct$_Staff_$1071_memory_ptr",
                           "typeString": "struct MerkleERC20Claim.Staff memory"
                         }
                       }
@@ -2820,23 +2820,23 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Staff_$1073_memory_ptr",
+                          "typeIdentifier": "t_struct$_Staff_$1071_memory_ptr",
                           "typeString": "struct MerkleERC20Claim.Staff memory"
                         }
                       ],
                       "expression": {
-                        "id": 1261,
+                        "id": 1259,
                         "name": "StaffsPayroll",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1077,
+                        "referencedDeclaration": 1075,
                         "src": "2855:13:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage",
                           "typeString": "struct MerkleERC20Claim.Staff storage ref[] storage ref"
                         }
                       },
-                      "id": 1263,
+                      "id": 1261,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2845,11 +2845,11 @@
                       "nodeType": "MemberAccess",
                       "src": "2855:18:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Staff_$1073_storage_$dyn_storage_ptr_$_t_struct$_Staff_$1073_storage_$returns$__$bound_to$_t_array$_t_struct$_Staff_$1073_storage_$dyn_storage_ptr_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_array$_t_struct$_Staff_$1071_storage_$dyn_storage_ptr_$_t_struct$_Staff_$1071_storage_$returns$__$bound_to$_t_array$_t_struct$_Staff_$1071_storage_$dyn_storage_ptr_$",
                         "typeString": "function (struct MerkleERC20Claim.Staff storage ref[] storage pointer,struct MerkleERC20Claim.Staff storage ref)"
                       }
                     },
-                    "id": 1265,
+                    "id": 1263,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2864,26 +2864,26 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 1266,
+                  "id": 1264,
                   "nodeType": "ExpressionStatement",
                   "src": "2855:34:8"
                 },
                 {
                   "expression": {
-                    "id": 1270,
+                    "id": 1268,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1267,
+                      "id": 1265,
                       "name": "_staffsPayroll",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1251,
+                      "referencedDeclaration": 1249,
                       "src": "2899:14:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff memory[] memory"
                       }
                     },
@@ -2893,18 +2893,18 @@
                       "arguments": [],
                       "expression": {
                         "argumentTypes": [],
-                        "id": 1268,
+                        "id": 1266,
                         "name": "seeEMployees",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1285,
+                        "referencedDeclaration": 1283,
                         "src": "2916:12:8",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_function_internal_view$__$returns$_t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr_$",
+                          "typeIdentifier": "t_function_internal_view$__$returns$_t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr_$",
                           "typeString": "function () view returns (struct MerkleERC20Claim.Staff memory[] memory)"
                         }
                       },
-                      "id": 1269,
+                      "id": 1267,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2915,32 +2915,32 @@
                       "src": "2916:14:8",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff memory[] memory"
                       }
                     },
                     "src": "2899:31:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct MerkleERC20Claim.Staff memory[] memory"
                     }
                   },
-                  "id": 1271,
+                  "id": 1269,
                   "nodeType": "ExpressionStatement",
                   "src": "2899:31:8"
                 }
               ]
             },
             "functionSelector": "d56d511c",
-            "id": 1273,
+            "id": 1271,
             "implemented": true,
             "kind": "function",
             "modifiers": [
               {
-                "id": 1247,
+                "id": 1245,
                 "kind": "modifierInvocation",
                 "modifierName": {
-                  "id": 1246,
+                  "id": 1244,
                   "name": "onlyOwner",
                   "nodeType": "IdentifierPath",
                   "referencedDeclaration": 46,
@@ -2954,17 +2954,17 @@
             "nameLocation": "2678:12:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1245,
+              "id": 1243,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1242,
+                  "id": 1240,
                   "mutability": "mutable",
                   "name": "_employee",
                   "nameLocation": "2699:9:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1273,
+                  "scope": 1271,
                   "src": "2691:17:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2973,7 +2973,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1241,
+                    "id": 1239,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "2691:7:8",
@@ -2987,12 +2987,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1244,
+                  "id": 1242,
                   "mutability": "mutable",
                   "name": "_salary",
                   "nameLocation": "2715:7:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1273,
+                  "scope": 1271,
                   "src": "2710:12:8",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -3001,7 +3001,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 1243,
+                    "id": 1241,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "2710:4:8",
@@ -3016,47 +3016,47 @@
               "src": "2690:33:8"
             },
             "returnParameters": {
-              "id": 1252,
+              "id": 1250,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1251,
+                  "id": 1249,
                   "mutability": "mutable",
                   "name": "_staffsPayroll",
                   "nameLocation": "2765:14:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1273,
+                  "scope": 1271,
                   "src": "2750:29:8",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct MerkleERC20Claim.Staff[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1249,
+                      "id": 1247,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 1248,
+                        "id": 1246,
                         "name": "Staff",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 1073,
+                        "referencedDeclaration": 1071,
                         "src": "2750:5:8"
                       },
-                      "referencedDeclaration": 1073,
+                      "referencedDeclaration": 1071,
                       "src": "2750:5:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Staff_$1073_storage_ptr",
+                        "typeIdentifier": "t_struct$_Staff_$1071_storage_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff"
                       }
                     },
-                    "id": 1250,
+                    "id": 1248,
                     "nodeType": "ArrayTypeName",
                     "src": "2750:7:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage_ptr",
                       "typeString": "struct MerkleERC20Claim.Staff[]"
                     }
                   },
@@ -3065,7 +3065,7 @@
               ],
               "src": "2749:31:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "2669:269:8",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -3073,57 +3073,57 @@
           },
           {
             "body": {
-              "id": 1284,
+              "id": 1282,
               "nodeType": "Block",
               "src": "3017:48:8",
               "statements": [
                 {
                   "expression": {
-                    "id": 1282,
+                    "id": 1280,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 1280,
+                      "id": 1278,
                       "name": "_staffsPayroll",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1278,
+                      "referencedDeclaration": 1276,
                       "src": "3027:14:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff memory[] memory"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 1281,
+                      "id": 1279,
                       "name": "StaffsPayroll",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1077,
+                      "referencedDeclaration": 1075,
                       "src": "3044:13:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage",
                         "typeString": "struct MerkleERC20Claim.Staff storage ref[] storage ref"
                       }
                     },
                     "src": "3027:30:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                       "typeString": "struct MerkleERC20Claim.Staff memory[] memory"
                     }
                   },
-                  "id": 1283,
+                  "id": 1281,
                   "nodeType": "ExpressionStatement",
                   "src": "3027:30:8"
                 }
               ]
             },
             "functionSelector": "129fa0fe",
-            "id": 1285,
+            "id": 1283,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -3131,53 +3131,53 @@
             "nameLocation": "2952:12:8",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1274,
+              "id": 1272,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "2964:2:8"
             },
             "returnParameters": {
-              "id": 1279,
+              "id": 1277,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1278,
+                  "id": 1276,
                   "mutability": "mutable",
                   "name": "_staffsPayroll",
                   "nameLocation": "3002:14:8",
                   "nodeType": "VariableDeclaration",
-                  "scope": 1285,
+                  "scope": 1283,
                   "src": "2987:29:8",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_array$_t_struct$_Staff_$1073_memory_ptr_$dyn_memory_ptr",
+                    "typeIdentifier": "t_array$_t_struct$_Staff_$1071_memory_ptr_$dyn_memory_ptr",
                     "typeString": "struct MerkleERC20Claim.Staff[]"
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1276,
+                      "id": 1274,
                       "nodeType": "UserDefinedTypeName",
                       "pathNode": {
-                        "id": 1275,
+                        "id": 1273,
                         "name": "Staff",
                         "nodeType": "IdentifierPath",
-                        "referencedDeclaration": 1073,
+                        "referencedDeclaration": 1071,
                         "src": "2987:5:8"
                       },
-                      "referencedDeclaration": 1073,
+                      "referencedDeclaration": 1071,
                       "src": "2987:5:8",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Staff_$1073_storage_ptr",
+                        "typeIdentifier": "t_struct$_Staff_$1071_storage_ptr",
                         "typeString": "struct MerkleERC20Claim.Staff"
                       }
                     },
-                    "id": 1277,
+                    "id": 1275,
                     "nodeType": "ArrayTypeName",
                     "src": "2987:7:8",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_array$_t_struct$_Staff_$1073_storage_$dyn_storage_ptr",
+                      "typeIdentifier": "t_array$_t_struct$_Staff_$1071_storage_$dyn_storage_ptr",
                       "typeString": "struct MerkleERC20Claim.Staff[]"
                     }
                   },
@@ -3186,7 +3186,7 @@
               ],
               "src": "2986:31:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "2943:122:8",
             "stateMutability": "view",
             "virtual": false,
@@ -3194,12 +3194,12 @@
           },
           {
             "body": {
-              "id": 1288,
+              "id": 1286,
               "nodeType": "Block",
               "src": "3098:2:8",
               "statements": []
             },
-            "id": 1289,
+            "id": 1287,
             "implemented": true,
             "kind": "receive",
             "modifiers": [],
@@ -3207,29 +3207,29 @@
             "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 1286,
+              "id": 1284,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3079:2:8"
             },
             "returnParameters": {
-              "id": 1287,
+              "id": 1285,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "3098:0:8"
             },
-            "scope": 1290,
+            "scope": 1288,
             "src": "3072:28:8",
             "stateMutability": "payable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1291,
+        "scope": 1289,
         "src": "269:2842:8",
         "usedErrors": [
-          1089,
-          1091
+          1087,
+          1089
         ]
       }
     ],

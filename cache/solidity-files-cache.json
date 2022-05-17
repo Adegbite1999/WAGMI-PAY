@@ -302,8 +302,8 @@
       }
     },
     "/home/adegbite/Desktop/wagmi-pay/src/FactoryClone.sol": {
-      "lastModificationDate": 1652781265549,
-      "contentHash": "45ac67f33caf767a8f5398ee7f2aa2be",
+      "lastModificationDate": 1652782948729,
+      "contentHash": "62243734e58112a75907236f0353ab24",
       "sourceName": "src/FactoryClone.sol",
       "solcConfig": {
         "settings": {
@@ -332,6 +332,7 @@
       },
       "imports": [
         "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/proxy/Clones.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -347,8 +348,8 @@
       }
     },
     "/home/adegbite/Desktop/wagmi-pay/src/MerkleSalaryClaim.sol": {
-      "lastModificationDate": 1652781265553,
-      "contentHash": "f45b21b5c46d889255656ac5b953c839",
+      "lastModificationDate": 1652782897714,
+      "contentHash": "217bb797627f0a4882a282d41e084124",
       "sourceName": "src/MerkleSalaryClaim.sol",
       "solcConfig": {
         "settings": {
