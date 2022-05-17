@@ -4,11 +4,11 @@ import "openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol";
 import "openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
-contract MerkleERC20Claim {
+contract MerkleERC20Claim is Ownable {
     //@notice ERC20-claimee inclusion root
-    bytes32 immutable merkleRoot;
+    bytes32 merkleRoot;
     bool activatePayment;
-    uint40 startTime;
+    uint startTime;
     string public bizName;
     string public bizSymb;
 
@@ -71,7 +71,8 @@ contract MerkleERC20Claim {
 
     }
     function AddEmployees(address _employee, uint _salary) public onlyOwner returns (Staff[] memory _staffsPayroll){
-        StaffsPayroll.push({employee:_employee, salary:_salary});
+        Staff memory staffsPayrolls = Staff(_employee, _salary);
+        StaffsPayroll.push(staffsPayrolls);
         _staffsPayroll = seeEMployees();
 
     }

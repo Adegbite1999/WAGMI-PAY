@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 import "./MerkleSalaryClaim.sol";
-import "openzeppelin-contract/contracts/proxy/Clones.sol";
-import "openzeppelin-contract/contracts/access/Ownable.sol";
+import "openzeppelin-contracts/contracts/proxy/Clones.sol";
+import "openzeppelin-contracts/contracts/access/Ownable.sol";
 
 
-contract PayrollFactory is Ownable, Clones{
+contract PayrollFactory is Ownable{
+  using Clones for *;
   address public payrollAddress;
   event payrollCreated(address indexed newPayroll); 
   address[] payrollAddresses; 
@@ -15,13 +16,13 @@ contract PayrollFactory is Ownable, Clones{
 
   }
 
-  function CreatePayroll(string _name) public {
-    address clonePayroll = clone(payrollAddress);
+  function CreatePayroll() public {
+    address clonePayroll = Clones.clone(payrollAddress);
     payrollAddresses.push(clonePayroll);
     emit payrollCreated(clonePayroll);
   
   }
-  function getAllpayrolls() view returns(address[] memory _Allpayrolls){
+  function getAllpayrolls() public view returns(address[] memory _Allpayrolls){
       _Allpayrolls = payrollAddresses;
   }
 }
