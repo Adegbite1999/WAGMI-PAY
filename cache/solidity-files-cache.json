@@ -450,9 +450,15 @@
         }
       }
     },
+<<<<<<< HEAD
     "/home/iwura/Desktop/WAGMI-PAY/src/FactoryClone.sol": {
       "lastModificationDate": 1652795623454,
       "contentHash": "f9b9d5a66f026f68e669a2b23c491da9",
+=======
+    "/home/adegbite/Desktop/wagmi-pay/src/FactoryClone.sol": {
+      "lastModificationDate": 1652782948729,
+      "contentHash": "62243734e58112a75907236f0353ab24",
+>>>>>>> 9edf03da347736ad9f284ec394cf76c055fee27e
       "sourceName": "src/FactoryClone.sol",
       "solcConfig": {
         "settings": {
@@ -496,9 +502,15 @@
         }
       }
     },
+<<<<<<< HEAD
     "/home/iwura/Desktop/WAGMI-PAY/src/MerkleSalaryClaim.sol": {
       "lastModificationDate": 1652830936989,
       "contentHash": "aec376d66cc97cbf2c9aee08269882cf",
+=======
+    "/home/adegbite/Desktop/wagmi-pay/src/MerkleSalaryClaim.sol": {
+      "lastModificationDate": 1652782897714,
+      "contentHash": "217bb797627f0a4882a282d41e084124",
+>>>>>>> 9edf03da347736ad9f284ec394cf76c055fee27e
       "sourceName": "src/MerkleSalaryClaim.sol",
       "solcConfig": {
         "settings": {
