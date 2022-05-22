@@ -4,14 +4,14 @@ import "ds-test/test.sol";
 import "../factory.sol";
 
 contract FactoryTest is DSTest {
-    SalaryCalimFactory salaryCalimFactory;
+    SalaryClaimFactory salaryClaimFactory;
 
     function setUp() public{
-        salaryCalimFactory = new SalaryCalimFactory();
+        salaryClaimFactory = new SalaryClaimFactory();
     }
-    function testcreatePayroll() public{
-        salaryCalimFactory.createPayroll();
-        
+    function testcreatePayroll() public returns(address, address){
+       
+        return (salaryClaimFactory.createPayroll("Gold"));
     }
     
 

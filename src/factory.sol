@@ -1,24 +1,24 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >0.4.23 <0.9.0;
+pragma solidity  ^0.8.6;
 import "./MerkleSalaryClaim.sol";
-contract SalaryCalimFactory {
-    MerkleSalaryClaim[] private Payroll;
+contract SalaryClaimFactory {
+    address[] private Payroll;
 
-  event payrollCreated(MerkleSalaryClaim indexed newPayroll); 
+  event payrollCreated(address indexed newPayroll, address indexed owner); 
 
-    function createPayroll() public returns(MerkleSalaryClaim){
-        MerkleSalaryClaim _payroll = new MerkleSalaryClaim();
-        Payroll.push(_payroll);
-    emit payrollCreated(_payroll);
+    function createPayroll(string memory _name) public returns(address, address){
+        MerkleSalaryClaim _payroll = new MerkleSalaryClaim(_name, msg.sender);
+        Payroll.push(address(_payroll));
+    emit payrollCreated(address(_payroll), msg.sender);
+    return (address(_payroll), msg.sender);
 
-        return _payroll;
 
     }
-    // 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2
+    
     function allPayrolls()
         public
         view
-        returns (MerkleSalaryClaim[] memory coll)
+        returns (address[] memory coll)
     {
         return Payroll;
     }

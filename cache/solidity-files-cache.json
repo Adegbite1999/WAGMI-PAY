@@ -82,7 +82,20 @@
         "lib/forge-std/src/console2.sol"
       ],
       "versionRequirement": ">=0.6.0, <0.9.0",
-      "artifacts": {}
+      "artifacts": {
+        "Test": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Test.sol/Test.json"
+        },
+        "stdError": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Test.sol/stdError.json"
+        },
+        "stdMath": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Test.sol/stdMath.json"
+        },
+        "stdStorage": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Test.sol/stdStorage.json"
+        }
+      }
     },
     "/home/iwura/Desktop/WAGMI-PAY/lib/forge-std/src/Vm.sol": {
       "lastModificationDate": 1652816929183,
@@ -115,7 +128,11 @@
       },
       "imports": [],
       "versionRequirement": ">=0.6.0",
-      "artifacts": {}
+      "artifacts": {
+        "Vm": {
+          "0.8.10+commit.fc410830.Linux.gcc": "Vm.sol/Vm.json"
+        }
+      }
     },
     "/home/iwura/Desktop/WAGMI-PAY/lib/forge-std/src/console.sol": {
       "lastModificationDate": 1652816929183,
@@ -148,7 +165,11 @@
       },
       "imports": [],
       "versionRequirement": ">=0.4.22, <0.9.0",
-      "artifacts": {}
+      "artifacts": {
+        "console": {
+          "0.8.10+commit.fc410830.Linux.gcc": "console.sol/console.json"
+        }
+      }
     },
     "/home/iwura/Desktop/WAGMI-PAY/lib/forge-std/src/console2.sol": {
       "lastModificationDate": 1652816929183,
@@ -181,81 +202,9 @@
       },
       "imports": [],
       "versionRequirement": ">=0.4.22, <0.9.0",
-      "artifacts": {}
-    },
-    "/home/iwura/Desktop/WAGMI-PAY/lib/openzeppelin-contracts/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1652787396390,
-      "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
-      "sourceName": "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
-      ],
-      "versionRequirement": "^0.8.0",
       "artifacts": {
-        "Ownable": {
-          "0.8.10+commit.fc410830.Linux.gcc": "Ownable.sol/Ownable.json"
-        }
-      }
-    },
-    "/home/iwura/Desktop/WAGMI-PAY/lib/openzeppelin-contracts/contracts/proxy/Clones.sol": {
-      "lastModificationDate": 1652787396402,
-      "contentHash": "fbd54d0ecbc75d25a2f268e36e9b6553",
-      "sourceName": "lib/openzeppelin-contracts/contracts/proxy/Clones.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [],
-      "versionRequirement": "^0.8.0",
-      "artifacts": {
-        "Clones": {
-          "0.8.10+commit.fc410830.Linux.gcc": "Clones.sol/Clones.json"
+        "console2": {
+          "0.8.10+commit.fc410830.Linux.gcc": "console2.sol/console2.json"
         }
       }
     },
@@ -450,67 +399,9 @@
         }
       }
     },
-<<<<<<< HEAD
-    "/home/iwura/Desktop/WAGMI-PAY/src/FactoryClone.sol": {
-      "lastModificationDate": 1652795623454,
-      "contentHash": "f9b9d5a66f026f68e669a2b23c491da9",
-=======
-    "/home/adegbite/Desktop/wagmi-pay/src/FactoryClone.sol": {
-      "lastModificationDate": 1652782948729,
-      "contentHash": "62243734e58112a75907236f0353ab24",
->>>>>>> 9edf03da347736ad9f284ec394cf76c055fee27e
-      "sourceName": "src/FactoryClone.sol",
-      "solcConfig": {
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "metadata": {
-            "bytecodeHash": "ipfs"
-          },
-          "outputSelection": {
-            "*": {
-              "": [
-                "ast"
-              ],
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ]
-            }
-          },
-          "evmVersion": "london"
-        }
-      },
-      "imports": [
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
-        "lib/openzeppelin-contracts/contracts/proxy/Clones.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
-        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
-        "lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
-        "src/MerkleSalaryClaim.sol"
-      ],
-      "versionRequirement": "^0.8.4",
-      "artifacts": {
-        "PayrollFactory": {
-          "0.8.10+commit.fc410830.Linux.gcc": "FactoryClone.sol/PayrollFactory.json"
-        }
-      }
-    },
-<<<<<<< HEAD
     "/home/iwura/Desktop/WAGMI-PAY/src/MerkleSalaryClaim.sol": {
-      "lastModificationDate": 1652830936989,
-      "contentHash": "aec376d66cc97cbf2c9aee08269882cf",
-=======
-    "/home/adegbite/Desktop/wagmi-pay/src/MerkleSalaryClaim.sol": {
-      "lastModificationDate": 1652782897714,
-      "contentHash": "217bb797627f0a4882a282d41e084124",
->>>>>>> 9edf03da347736ad9f284ec394cf76c055fee27e
+      "lastModificationDate": 1653219589500,
+      "contentHash": "4fbeaff225520f57f4e60d19dc22a5de",
       "sourceName": "src/MerkleSalaryClaim.sol",
       "solcConfig": {
         "settings": {
@@ -538,7 +429,6 @@
         }
       },
       "imports": [
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -553,8 +443,8 @@
       }
     },
     "/home/iwura/Desktop/WAGMI-PAY/src/factory.sol": {
-      "lastModificationDate": 1652816518092,
-      "contentHash": "de4a949d573a5ca508b9b0be91cfa4a2",
+      "lastModificationDate": 1653170868380,
+      "contentHash": "64affe4d8902f4aea94c3bd28dfe6509",
       "sourceName": "src/factory.sol",
       "solcConfig": {
         "settings": {
@@ -582,7 +472,6 @@
         }
       },
       "imports": [
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -590,10 +479,10 @@
         "lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol",
         "src/MerkleSalaryClaim.sol"
       ],
-      "versionRequirement": ">0.4.23, <0.9.0",
+      "versionRequirement": "^0.8.6",
       "artifacts": {
-        "SalaryCalimFactory": {
-          "0.8.10+commit.fc410830.Linux.gcc": "factory.sol/SalaryCalimFactory.json"
+        "SalaryClaimFactory": {
+          "0.8.10+commit.fc410830.Linux.gcc": "factory.sol/SalaryClaimFactory.json"
         }
       }
     },
@@ -637,8 +526,8 @@
       }
     },
     "/home/iwura/Desktop/WAGMI-PAY/src/test/Factory.t.sol": {
-      "lastModificationDate": 1652817122627,
-      "contentHash": "1619acbc52760dd49ab4e7115c7e22bd",
+      "lastModificationDate": 1653085978209,
+      "contentHash": "adc961da2db2fad1fa115a055dbd9e75",
       "sourceName": "src/test/Factory.t.sol",
       "solcConfig": {
         "settings": {
@@ -667,7 +556,6 @@
       },
       "imports": [
         "lib/ds-test/src/test.sol",
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
@@ -684,8 +572,8 @@
       }
     },
     "/home/iwura/Desktop/WAGMI-PAY/src/test/Merkle.t.sol": {
-      "lastModificationDate": 1652830925069,
-      "contentHash": "12373ee59f8e8fc7788a42504eeed094",
+      "lastModificationDate": 1653085920595,
+      "contentHash": "8894a1edbc0d43613f3147052f20fe9a",
       "sourceName": "src/test/Merkle.t.sol",
       "solcConfig": {
         "settings": {
@@ -718,7 +606,6 @@
         "lib/forge-std/src/Vm.sol",
         "lib/forge-std/src/console.sol",
         "lib/forge-std/src/console2.sol",
-        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
         "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
